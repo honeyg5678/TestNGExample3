@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [wu testing]" parallel="tests">
+  <test thread-count="5" name="edge test(failed)" parallel="tests">
+    <classes>
+      <class name="com.honey.test.FirstTestNGExample">
+        <methods>
+          <include name="testApplication"/>
+          <include name="launchbrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.honey.test.FirstTestNGExample -->
+    </classes>
+  </test> <!-- edge test(failed) -->
+  <test thread-count="5" name="chrome test(failed)" parallel="tests">
+    <classes>
+      <class name="com.honey.test.FirstTestNGExample">
+        <methods>
+          <include name="testApplication"/>
+          <include name="launchbrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.honey.test.FirstTestNGExample -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+  <test thread-count="5" name="firefox test(failed)" parallel="tests">
+    <classes>
+      <class name="com.honey.test.FirstTestNGExample">
+        <methods>
+          <include name="testApplication"/>
+          <include name="launchbrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.honey.test.FirstTestNGExample -->
+    </classes>
+  </test> <!-- firefox test(failed) -->
+</suite> <!-- Failed suite [wu testing] -->

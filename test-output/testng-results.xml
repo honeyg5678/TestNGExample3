@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="wu testing" duration-ms="10131" started-at="2020-03-07T03:12:21Z" finished-at="2020-03-07T03:12:32Z">
+    <groups>
+    </groups>
+    <test name="All Browser test" duration-ms="10131" started-at="2020-03-07T03:12:21Z" finished-at="2020-03-07T03:12:32Z">
+      <class name="com.honey.test.FirstTestNGExample">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:com.honey.test.FirstTestNGExample@667a738]" name="launchbrowser" is-config="true" duration-ms="7881" started-at="2020-03-07T03:12:21Z" finished-at="2020-03-07T03:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="testApplication()[pri:0, instance:com.honey.test.FirstTestNGExample@667a738]" name="testApplication" duration-ms="16" started-at="2020-03-07T03:12:29Z" finished-at="2020-03-07T03:12:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplication -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.honey.test.FirstTestNGExample@667a738]" name="closebrowser" is-config="true" duration-ms="2196" started-at="2020-03-07T03:12:29Z" finished-at="2020-03-07T03:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.honey.test.FirstTestNGExample -->
+    </test> <!-- All Browser test -->
+  </suite> <!-- wu testing -->
+</testng-results>
